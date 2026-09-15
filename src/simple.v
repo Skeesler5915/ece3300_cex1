@@ -23,14 +23,14 @@ module simple(
    
 // add your code here
 	case (a)
-		3b'000: result = 7b'0000000;
-		3b'001: result = 7b'0000001;
-		3b'010: result = 7b'0000011;
-		3b'011: result = 7b'0000111;
-		3b'100: result = 7b'0001111;
-		3b'101: result = 7b'0011111;
-		3b'110: result = 7b'0111111;
-		3b'111: result = 7b'1111111;
+		3'b000: result = 7'b0000000;
+		3'b001: result = 7'b0000001;
+		3'b010: result = 7'b0000011;
+		3'b011: result = 7'b0000111;
+		3'b100: result = 7'b0001111;
+		3'b101: result = 7'b0011111;
+		3'b110: result = 7'b0111111;
+		3'b111: result = 7'b1111111;
    
 endmodule
 
