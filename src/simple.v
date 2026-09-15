@@ -22,6 +22,15 @@ module simple(
 	      output reg [6:0] result);
    
 // add your code here
+	case (a)
+		3b'000: result = 7b'0000000;
+		3b'001: result = 7b'0000001;
+		3b'010: result = 7b'0000011;
+		3b'011: result = 7b'0000111;
+		3b'100: result = 7b'0001111;
+		3b'101: result = 7b'0011111;
+		3b'110: result = 7b'0111111;
+		3b'111: result = 7b'1111111;
    
 endmodule
 
